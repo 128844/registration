@@ -1,0 +1,7 @@
+version: "3.5"
+services:
+  registration:
+     image: 128844/registration:one
+     container_name: registration
+     ports:
+         - "5000:8000"
